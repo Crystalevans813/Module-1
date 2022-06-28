@@ -193,18 +193,19 @@ inexpensive_loans = []
 
 # Use a for loop to determine if loan_price is less than or equal to 500
 
-inexpensive_loans = [700,500,200,900]
-for x in inexpensive_loans:
+loan_price = [{700,500,200,900}]
+for x in loan_price:
   print(x)
+
+inexpensive_loans = [{200}, {500}]
+inexpensive_loans.append
+print(inexpensive_loans)
+
 
 a = 200
 b = 500
 if a < b:
-  print("loan_price is less than or equal to 500")
-
-inexpensive_loans = [500,200]
-inexpensive_loans.append
-print(inexpensive_loans)
+  print("the following loan prices are less than or equal to {500}")
 
 """Part 5: Save the results.
 
